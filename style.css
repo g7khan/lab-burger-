@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Boogaloo", sans-serif;
+    box-sizing: border-box;
+
+}
+
+nav {
+    overflow: hidden;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    /* margin-top: 30px; */
+    padding: 20px;
+    background-color: black;
+    height: 80px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+
+
+
+}
+
+.navbar a:hover {
+
+    color: white !important;
+
+}
+
+main {
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+
+}
+
+
+.image-container img {
+    width: 100%;
+    height: 600px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    padding: 10px;
+    font-size: 90px;
+    color: orange;
+
+
+}
+
+
+
+.burger-header img {
+    height: 476px;
+    width: 557px;
+    margin: 93px;
+
+}
+
+
+.potato {
+    float: inline-end;
+    position: relative;
+    top: -450px;
+    right: 10px;
+}
+
+.potato p {
+    padding-top: 20px;
+
+}
+
+.potato h3,
+h4 {
+    font-size: 47px;
+    color: #532f17;
+    padding-top: 10px;
+}
+
+.potato p {
+    font-size: 17px;
+    color: #532f17;
+}
+
+main h1 {
+    text-align: center;
+    color: #532f17;
+    position: relative;
+    left: 20%;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+.dopler img {
+    height: 297px;
+    width: 288px;
+    margin-top: 91px;
+    margin-left: 7%;
+    transition: all .40s;
+}
+.dopler img:hover{
+    transform: scale(0.9);
+}
+
+.dopler h3 {
+    margin-left: 166px;
+    color: #532f17;
+    font-size: 30px;
+}
+
+.dopler h5 {
+    margin-left: 134px;
+    color: #532f17;
+    font-size: 27px;
+    position: relative;
+    bottom: 50px;
+    word-spacing: 4px;
+
+}
+
+/* .dopler p{
+    color: #532f17;
+    margin-left: 16px;
+    text-align: center;
+    position: relative;
+    right: 395px;
+    bottom: 30px;
+    word-spacing: 3px;
+
+} */
+
+
+.line img {
+    height: 7px;
+    position: relative;
+    top: -70px;
+}
+
+
+.red
+{
+    color: red;
+
+}
+
+
+.Quadra img{
+ 
+    height: 370px;
+    width: 342px;
+    margin-top: 91px;
+    margin-left: 35%;
+    position: relative;
+    bottom: 690px;
+    transition: all .40s;
+
+}
+
+.Quadra img:hover{
+    transform: scale(0.9);
+}
+.Quadra h3
+{
+    color: #532f17;
+    font-size: 30px;
+    position: relative;
+    bottom: 694px;
+    margin-left: 509px
+}
+
+.qua img{
+    height: 7px;
+    position: relative;
+    top: -764px;
+}
+
+.Quadra h5{
+  
+    margin-left: 538px;
+    color: #532f17;
+    font-size: 27px;
+    position: relative;
+    bottom: 744px;
+    word-spacing: 4px;
+}
+
+/* .Quadra p{
+
+    color: #532f17;
+    margin-left: 761px;
+    text-align: center;
+    position: relative;
+    right: 395px;
+    bottom: 722px;
+    word-spacing: 3px;
+} */
+/* .last img{
+    height: 297px;
+    width: 288px;
+    margin-top: 91px;
+    margin-left: 67%;
+    position: relative;
+    bottom: 1305px;
+}
+
+.last h3{
+    color: #532f17;
+    font-size: 30px;
+    position: relative;
+    bottom: 1309px;
+    margin-left: 69%;
+}
+
+.lst img{
+    height: 7px;
+    position: relative;
+    top: -1382px
+}
+
+.last h5
+
+{
+    margin-left: 859px;
+    color: #532f17;
+    font-size: 27px;
+    position: relative;
+    bottom: 1363px;
+    word-spacing: 4px;
+} */
+
+/* .last p{
+
+    color: #532f17;
+    margin-left: 887px;
+    position: relative;
+    bottom: 1341px;
+    right: 78px;
+    word-spacing: 3px;
+    text-align: center;
+} */
+
+footer{
+    overflow: hidden;
+}
+
+.footer-container img{
+    position: relative;
+    bottom: 40%;
+    top: -71px;
+    height: 513px;
+    width: 100%;
+} 
+
+.footer-container{
+    position: relative;
+}
+
+.smashed{
+
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+
+
+}
+.smashed img{
+    height: 191px;
+    width: 163px;
+    position: relative;
+    top: 10px;
+    margin-left: -40px;
+}
+   
+.smashed h4{
+
+    color: white;
+    font-size: 30px; 
+    position: relative;
+    right: 60px;
+
+
+
+}
+
+
+
+
+
+
+ @media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 20px;
+        height: 380px;
+        
+    
+    }
+
+    .navbar a{
+        font-size: 30px;
+    }
+  
+     .image-container img{
+         width: 100%; 
+            height: 400px;
+
+     } 
+     
+     
+     .overlay-text {
+        font-size: 30px;
+        margin-left: 80px;
+       text-align: center; 
+    }
+
+     .burger-header img{
+        height: 443px;
+        width: 343px;
+        margin-left: 28px;
+    }
+.potato h3{
+
+    font-size: 54px;
+        margin-left: 4px;
+        position: relative;
+        top: 377px;
+        text-align: center;
+    }
+
+ .potato h4{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 377px;
+    margin-left: 7px;
+    margin-top: 20px;
+}
+
+     .potato p{
+        font-size: 20px;
+               text-align: center;
+               position: relative;
+               top: 388px;
+     }
+
+     main h1{
+        font-size: 35px;
+        margin-left: -63px;
+        position: relative;
+        left: 36px;
+    }
+
+
+
+ .line img{
+    height: 11px;
+   
+
+ }
+
+ .dopler h3{
+    margin-left: 102px;
+ }
+
+ .dopler h5{
+    margin-left: 77px;
+ }
+
+
+ .Quadra img{
+    position: relative;
+    top: -55px;
+    margin-left: 20px;
+ }
+
+.Quadra h3{
+    margin-left: 84px;
+        position: relative;
+        top: -39px;
+    }
+
+    .qua img{
+             position: relative;
+             top: -104px;        
+    }
+
+
+ .Quadra h5{
+    position: relative;
+    margin-left: 101px;
+    top: -86px;
+
+ }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
